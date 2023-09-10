@@ -1,7 +1,8 @@
 package org.example;
 
 public class Persona {
-    String nombre, apellidos;
+    String nombre;
+    String apellidos;
 
     public Persona(){
     }
