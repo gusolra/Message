@@ -1,6 +1,8 @@
 package org.example;
 
 public class Persona {
+
+    // Cambio en respository
     String nombre, apellidos;
 
     public Persona(){
