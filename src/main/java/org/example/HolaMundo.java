@@ -2,7 +2,7 @@ package org.example;
 
 public class HolaMundo {
     public static void main(String[] args) {
-        // Codigo inservible
+        // Codigo inservible - Delete
         Mensaje msg = new Mensaje();
         Persona p1 = new Persona();
         p1.nombre = msg.solicitarDatos("Escribe tu nombre: ");
