@@ -10,6 +10,6 @@ public class Mensaje {
     }
 
     public void saludar(Persona p1) {
-        System.out.printf("Hola %s, bienvenido a Java \n", p1);
+        System.out.printf("Hola %s, bienvenido a Java. \n", p1);
     }
 }
