@@ -4,7 +4,10 @@ public class HolaMundo {
     public static void main(String[] args) {
         // Comentario
         Mensaje msg = new Mensaje();
-        String nombre = msg.solicitarDatos("Escribe tu nombre: ");
-        msg.saludar(nombre);
+        Persona p1 = new Persona();
+        p1.nombre = msg.solicitarDatos("Escribe tu nombre: ");
+        p1.apellidos = msg.solicitarDatos("Escribe tus apellidos: ");
+
+        msg.saludar(p1);
     }
 }
